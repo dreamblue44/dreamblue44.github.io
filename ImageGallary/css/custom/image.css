@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+}
+
+section ul {
+    display: flex;
+    margin-bottom: 10%;
+    width: auto;
+}
+
+section ul li {
+    list-style: none;
+    background: skyblue;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active {
+    background-color: whitesmoke
+}
+
+img {
+    display: inline-block;
+    border: 2px solid black;
+    width: 220px;
+    height: 165px;
+    margin-bottom: 5px;
+}
